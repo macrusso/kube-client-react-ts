@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,7 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Button variant="contained" color="primary">
+            Hello World
+          </Button>
         </a>
       </header>
     </div>
